@@ -46,6 +46,8 @@ local function onInputBegan(input, gameProcessed)
     end
 end
 
+print("Script made by 3Oxygen3 on github/WHACKAPACK on Scriptblox")
+
 UserInputService.InputBegan:Connect(onInputBegan)
 
 heartbeatConnection = RunService.Heartbeat:Connect(function()
