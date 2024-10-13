@@ -1,9 +1,12 @@
+getgenv().userInputKey = "23Apples" --this must match the local requiredkey for the script to work
+
+
 local Player = game.Players.LocalPlayer
 local UserInputService = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
 local StarterGui = game:GetService("StarterGui")
 
-local requiredKey = "23Apples"
+local requiredKey = "23Apples" --change this to whatever you wanna make the key
 local isTeleporting = false
 local heartbeatConnection
 
