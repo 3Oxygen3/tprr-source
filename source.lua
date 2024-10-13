@@ -30,7 +30,7 @@ if not isKeyValid(userInputKey) then
 end
 
 sendNotification("Key Accepted", "You may proceed.")
-sendNotification("Join the Discord for the weekly key!", ".gg/ZhGzDXz2jU")
+--sendNotification("Join the Discord for the key!", ".gg/YOURDISCORD")
 
 local ScreenGui = Instance.new("ScreenGui", Player:WaitForChild("PlayerGui"))
 local StatusLabel = Instance.new("TextLabel", ScreenGui)
@@ -59,6 +59,8 @@ local function onInputBegan(input, gameProcessed)
         ScreenGui:Destroy()
     end
 end
+
+print("Script Made by 3Oxygen3 on github")
 
 UserInputService.InputBegan:Connect(onInputBegan)
 
